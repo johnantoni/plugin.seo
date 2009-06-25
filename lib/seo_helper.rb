@@ -1,4 +1,4 @@
-module SeoHelper
+module SeoHelpers
   module TitleHelper
     # This method should be used in your layout and your actions.
     # 
