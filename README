@@ -1,13 +1,8 @@
 SeoHelper
 =========
 
-Introduction goes here.
+Modules & Methods to make SEO easier
 
+Originally based off of DefV's Title_Helper, http://github.com/DefV/title_helper/tree/master
 
-Example
-=======
-
-Example goes here.
-
-
-Copyright (c) 2009 [name of plugin creator], released under the MIT license
+Copyright (c) 2009 John Griffiths, released under the MIT license
