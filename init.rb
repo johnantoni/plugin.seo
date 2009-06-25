@@ -1,3 +1,3 @@
-require 'seo/title_helper'
+require 'seo_helper'
 
-ActionView::Base.send(:include, SEO::TitleHelper)
+ActionView::Base.send(:include, SeoHelper)
