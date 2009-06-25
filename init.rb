@@ -1,3 +1,4 @@
 require 'seo_helper'
 
-ActionView::Base.send(:include, SeoHelper)
+ActionView::Base.send(:include, SeoHelper::TitleHelper)
+ActionView::Base.send(:include, SeoHelper::MetaHelper)
