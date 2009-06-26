@@ -44,6 +44,14 @@ module SeoHelpers
       return s
     end
 
+    def favicon location = '/favicon.ico'
+      %(<link rel='shortcut icon' href='#{location}' type='image/x-icon' />)
+    end
+
+    def metatype options = {:type => 'text/html', :format => 'utf-8'}
+      %(<meta http-equiv='content-type' content='#{options[:type]};charset=#{options[:format]}' />)
+    end
+
     def display_keywords options = {}
       if options[:keys].nil?
         keys = "linux csharp socialnetworks css facebook blog ruby rubyonrails 
@@ -87,14 +95,6 @@ module SeoHelpers
       # else
       # end
       return meta('keywords', keys)
-    end
-
-    def favicon location = '/favicon.ico'
-      %(<link rel='shortcut icon' href='#{location}' type='image/x-icon' />)
-    end
-
-    def metatype options => {:content = 'text/html', :charset => 'utf-8'}
-      %(<meta http-equiv="content-type" content="#{:options[:type]};charset=#{options[:charset]}" />)
     end
     
   end
